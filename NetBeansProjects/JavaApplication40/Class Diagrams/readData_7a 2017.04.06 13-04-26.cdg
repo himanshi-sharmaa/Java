@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="readData_7a">
+  <ClassDiagramComponents>
+    <Class name="DoubleValue" package="readdata_7a" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="s" type="Scanner" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="readDouble" returnType="double" visibility="package"/>
+      </Methods>
+    </Class>
+    <Class name="IntegerValue" package="readdata_7a" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields>
+        <Field name="s" type="Scanner" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="readInteger" returnType="int" visibility="package"/>
+      </Methods>
+    </Class>
+    <Class name="ReadDataDemo" package="readdata_7a" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ReadData_7a" package="readdata_7a" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="StringValue" package="readdata_7a" visibility="public" xPosition="1520.0" yPosition="20.0">
+      <Fields>
+        <Field name="s" type="Scanner" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="readString" returnType="String" visibility="package"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

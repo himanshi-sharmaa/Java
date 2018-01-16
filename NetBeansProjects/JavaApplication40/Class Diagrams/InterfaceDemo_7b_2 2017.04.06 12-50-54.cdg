@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="InterfaceDemo_7b_2">
+  <ClassDiagramComponents>
+    <Class name="BroadCast" package="interfacedemo_7b_2" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="display" returnType="void" visibility="package"/>
+        <Method name="show" returnType="void" visibility="public"/>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="InterfaceDemo_7b_2" package="interfacedemo_7b_2" visibility="public" xPosition="72.0" yPosition="267.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Programme" package="interfacedemo_7b_2" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields>
+        <Field name="programeName" type="String" visibility="package"/>
+        <Field name="sponsor" type="String" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="package"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="programeName"/>
+          <Argument type="String" name="sponsor"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="display" returnType="void" visibility="package"/>
+      </Methods>
+    </Class>
+    <Interface name="TVStation" package="interfacedemo_7b_2" visibility="public" xPosition="484.0" yPosition="309.0">
+      <Methods>
+        <Method name="show" returnType="void" visibility="package" isAbstract="true"/>
+      </Methods>
+    </Interface>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="interfacedemo_7b_2.BroadCast" target="interfacedemo_7b_2.TVStation"/>
+    <IsRelation name="is" source="interfacedemo_7b_2.BroadCast" target="interfacedemo_7b_2.Programme"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

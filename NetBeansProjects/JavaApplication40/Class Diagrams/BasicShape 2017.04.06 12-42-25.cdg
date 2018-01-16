@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="BasicShape">
+  <ClassDiagramComponents>
+    <Class name="BasicShape" package="abstractdemo_7b" visibility="public" isAbstract="true" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="area" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="package"/>
+      </Constructors>
+      <Methods>
+        <Method name="getArea" returnType="double" visibility="public"/>
+        <Method name="calcArea" returnType="double" visibility="public" isAbstract="true"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Shape_7b_3">
+  <ClassDiagramComponents>
+    <Class name="DriverClass" package="shape_7b_3" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Hexagon" package="shape_7b_3" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="noOfSides" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Shape" package="shape_7b_3" visibility="public" isAbstract="true" xPosition="620.0" yPosition="20.0">
+      <Fields>
+        <Field name="sides" type="int" visibility="protected"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="noOfSides" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Shape_7b_3" package="shape_7b_3" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Trapezoid" package="shape_7b_3" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="noOfSides" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Triangle" package="shape_7b_3" visibility="public" xPosition="1520.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="noOfSides" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="shape_7b_3.Triangle" target="shape_7b_3.Shape"/>
+    <IsRelation name="is" source="shape_7b_3.Hexagon" target="shape_7b_3.Shape"/>
+    <IsRelation name="is" source="shape_7b_3.Trapezoid" target="shape_7b_3.Shape"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

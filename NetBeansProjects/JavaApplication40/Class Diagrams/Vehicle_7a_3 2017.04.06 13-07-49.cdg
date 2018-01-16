@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Vehicle_7a_3">
+  <ClassDiagramComponents>
+    <Class name="Car" package="vehicle_7a_3" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="speed" type="double" visibility="package"/>
+        <Field name="size" type="String" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="double" name="speed"/>
+          <Argument type="String" name="size"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getSpeed" returnType="double" visibility="public"/>
+        <Method name="setSpeed" returnType="void" visibility="public">
+          <Argument type="double" name="speed"/>
+        </Method>
+        <Method name="getSize" returnType="String" visibility="public"/>
+        <Method name="setSize" returnType="void" visibility="public">
+          <Argument type="String" name="size"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="MainClass" package="vehicle_7a_3" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="SportsCar" package="vehicle_7a_3" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="double" name="speed"/>
+          <Argument type="String" name="size"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getSpeed" returnType="double" visibility="public"/>
+        <Method name="setSpeed" returnType="void" visibility="public">
+          <Argument type="double" name="speed"/>
+        </Method>
+        <Method name="getSize" returnType="String" visibility="public"/>
+        <Method name="setSize" returnType="void" visibility="public">
+          <Argument type="String" name="size"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Truck" package="vehicle_7a_3" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields>
+        <Field name="loadCapacity" type="double" visibility="package"/>
+        <Field name="toweringCapacity" type="int" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="double" name="loadCapacity"/>
+          <Argument type="int" name="toweringCapacity"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getLoadCapacity" returnType="double" visibility="public"/>
+        <Method name="setLoadCapacity" returnType="void" visibility="public">
+          <Argument type="double" name="loadCapacity"/>
+        </Method>
+        <Method name="getToweringCapacity" returnType="int" visibility="public"/>
+        <Method name="setToweringCapacity" returnType="void" visibility="public">
+          <Argument type="int" name="toweringCapacity"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Vehicle_7a_3" package="vehicle_7a_3" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields>
+        <Field name="manufName" type="String" visibility="package"/>
+        <Field name="noOfCylinders" type="int" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="manufName"/>
+          <Argument type="int" name="noOfCylinders"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+        <Method name="getManufName" returnType="String" visibility="public"/>
+        <Method name="setManufName" returnType="void" visibility="public">
+          <Argument type="String" name="manufName"/>
+        </Method>
+        <Method name="getNoOfCylinders" returnType="int" visibility="public"/>
+        <Method name="setNoOfCylinders" returnType="void" visibility="public">
+          <Argument type="int" name="noOfCylinders"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="vehicle_7a_3.Car" target="vehicle_7a_3.Vehicle_7a_3"/>
+    <IsRelation name="is" source="vehicle_7a_3.Truck" target="vehicle_7a_3.Vehicle_7a_3"/>
+    <IsRelation name="is" source="vehicle_7a_3.SportsCar" target="vehicle_7a_3.Car"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
